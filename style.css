@@ -1,0 +1,120 @@
+body{
+  margin: auto;
+  padding: 0;
+}
+.clear::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.top-section{
+  background-image: url(./images/header-bg.png);
+  padding: 50px 100px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.half-width{
+  width: 45%;
+  
+  margin-left: 5%;
+  margin-top: 95px;
+}
+.h-width{
+  
+  width: 45%;
+  margin-right: 5%;
+}
+img{
+  max-width: 100%;
+}
+.half-width h1{
+  font-size: 35px;
+  color: rgb(255, 72, 179);
+}
+.half-width h2{
+  font-weight: 300;
+}
+.half-width p{
+  font-size: 18px;
+  color: gray;
+}
+.default-btn{
+  padding: 15px 30px;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, rgb(255, 78, 149), rgb(255, 24, 114));
+  color: white;
+  margin-top: 30px;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.mid-section{
+  background-image: url(./images/biography-bg.png);
+  padding: 50px 100px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.latest-work-sec{
+  background-image: url(./images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 50px 100px;
+}
+.latest-work-sec h1{
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+.pic-section{
+  width: 31%;
+  margin-left: 2%;
+}
+.bottom-sec{
+  text-align: center;
+  padding: 50px 100px;
+  background: url(./images/footer-bg.png) no-repeat top;
+}
+.bottom-sec h1{
+  font-size: 40px;
+}
+.bottom-mid{
+  padding: 30px;
+  line-height: 5px;
+}
+.bottom-mid h4{
+  font-size: 22px;
+}
+.bottom-mid p{
+  font-weight: 200;
+  color: gray;
+  font-size: 20px;
+}
+.bottom-sec-p{
+  font-size: 23px;
+  width: 470px;
+  padding-bottom: 40px;
+  margin: auto;
+}
+.bottom-btn{
+  padding: 20px 120px;
+}
+.bottom-btn h2{
+  font-size: 30px;
+}
+footer{
+  padding: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+footer a{
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(255, 72, 179);
+}
